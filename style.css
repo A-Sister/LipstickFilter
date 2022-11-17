@@ -1,0 +1,24 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    font-family: monospace;
+    font-size: 25px;
+}
+
+canvas {
+    animation-name: border;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    from{box-shadow: 1px 1px 45px purple;}
+    to{box-shadow: 1px 1px 45px lightblue;}
+}
+
+.btn-info:hover{
+    background-color:indianred;
+    font-family: fantasy;
+}
